@@ -19,10 +19,6 @@ public class OrderView {
             System.out.println(order.getItem().getName() + " x " + order.getQuantity()
                     + " = Rs." + (int)  order.getTotal());
         }
-<<<<<<< HEAD
-       // orders.clear(); 
-=======
-         // start fresh for the next customer
->>>>>>> 82896bc (fixed the bugs)
+
     }
 }

@@ -13,7 +13,6 @@ public class MenuItem {
     }
 
     public double getPrice() {
-        System.out.println("called get price"+price);
         return price;
     }
 }

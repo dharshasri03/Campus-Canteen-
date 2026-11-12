@@ -19,12 +19,9 @@ public class Order {
     }
 
     public double getTotal() {
-<<<<<<< HEAD
         return item.getPrice() * quantity ;
-=======
-        System.out.println("called get total"+item);
-        return item.getPrice();
->>>>>>> 82896bc (fixed the bugs)
+
+
     }
 
 }
